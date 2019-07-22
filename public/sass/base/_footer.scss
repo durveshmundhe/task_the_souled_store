@@ -1,0 +1,111 @@
+footer {
+    padding: 40px 0 20px;
+    background-color: #e6e7e8;
+    .column-heading {
+        text-transform: uppercase;
+        color: $red;
+    }
+    .footer-links {
+        a {
+            font-family: 'source_sans_prosemibold';
+            color: $grey-body-text;
+            font-size: 15px;
+            line-height: 33px;
+            &:hover {
+                color: $red;
+                text-decoration: none;
+            }
+        }
+    }
+    .circle-wrap {
+        display: flex;
+        .fa {
+            margin-right: 10px;
+            width: 25px;
+            height: 25px;
+            border: 1px solid #58595b;
+            border-radius: 50%;
+            line-height: 25px;
+            &:before {
+                position: relative;
+                left: 8px;
+            }
+        }
+        .fa-refresh {
+            &:before {
+                left: 5px;
+            }
+        }
+        p {
+            font-family: 'source_sans_proregular';
+            font-size: 15px;
+            line-height: 1.6;
+        }
+    }
+
+    .copyright-social {
+        u {
+            font-family: 'source_sans_proregular';
+            font-size: 15px;
+        }
+    }
+
+    .footer-social {
+        span {
+            font-family: 'source_sans_proregular';
+        }
+        .fa {
+            margin: 0 5px;
+            color: $white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            font-size: 18px;
+            line-height: 35px;
+            cursor: pointer;
+            transition: all 0.15s ease-out;
+            &:before {
+                position: relative;
+                left: 10px;
+                top: 2px;
+            }
+            &:hover {
+                transform: translateY(-3px);
+            }
+        }
+    }
+
+    .footer-navigation-wrap {
+        .accordian-wrap {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 15px;
+            border: 1px solid rgb(88, 89, 91);
+            &:first-child {
+                border-bottom: 0;
+            }
+        }
+        p {
+            margin-bottom: 0;
+            font-family: 'source_sans_prosemibold';
+            color: $red;
+        } 
+    }
+
+    .payment-wrap {
+        display: flex;
+        align-self: center;
+        span {
+           font-family: 'source_sans_proregular'; 
+        }
+        img {
+            width: 55px;
+            height: auto;
+            margin: 0 5px;
+        }
+    }
+
+    .copyright {
+        font-family: 'source_sans_prosemibold';
+    }
+}
