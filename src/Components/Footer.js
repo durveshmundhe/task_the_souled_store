@@ -87,7 +87,7 @@ function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-md-9">
-                        <div className="copy-right-wrap">
+                        <div className="copy-right-wrap mb-3">
                             <i class="fa fa-exclamation-triangle"></i>
                             <u className="ml-2">Report: Inappropriate Content or Copyright Infringement</u>
                         </div>

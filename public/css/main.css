@@ -1,3 +1,67 @@
+.small-nav {
+  background-color: #ed2d2f;
+}
+.small-nav p {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: "source_sans_proregular";
+}
+
+.logo-img {
+  position: relative;
+  top: -35px;
+}
+
+.eyes {
+  position: absolute;
+  top: 1%;
+  left: 3.56%;
+}
+
+.big-nav {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-light .navbar-brand {
+  height: 48px;
+  margin-left: 20px;
+  margin-right: 25px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: inherit;
+}
+.navbar-light sup {
+  color: red;
+}
+
+.navbar-nav:last-child {
+  font-size: 22px;
+}
+.navbar-nav .nav-link {
+  color: #58595b;
+  text-transform: uppercase;
+}
+.navbar-nav .search {
+  display: none;
+  width: 210px;
+  padding-left: 15px;
+  background: #eee;
+  height: 40px;
+  font-size: 14px;
+  float: right;
+  border-radius: 5px;
+  color: #262626;
+  border: 1px solid transparent;
+  transition: width 0.55s ease;
+}
+.navbar-nav .search::placeholder {
+  font-family: "source_sans_proregular";
+}
+.navbar-nav .fa-search:hover .navbar-nav .search {
+  display: block;
+}
+
 footer {
   padding: 40px 0 20px;
   background-color: #e6e7e8;
@@ -252,6 +316,13 @@ footer .copyright {
 }
 .social-container .social-circle:hover {
   transform: translateY(-3px);
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
